@@ -1,7 +1,7 @@
 from enum import StrEnum
 
 
-class Race(StrEnum):
+class Peoples(StrEnum):
     HOMME = "Homme"
     NAIN = "Nain"
     ELFE = "Elfe"

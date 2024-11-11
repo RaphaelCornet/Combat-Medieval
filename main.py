@@ -1,65 +1,65 @@
 import tkinter as tkinter
 
-from arme import Arme
+from weapons import Weapons
 from gui import GUI
-from personnage import Personnage
-from race import Race
+from character import Character
+from peoples import Peoples
 
 if __name__ == '__main__':
-    personnage1: Personnage = Personnage(
+    personnage1: Character = Character(
         "Theodore",
-        [Arme.DAGUE, Arme.SABRE],
-        Race.ELFE,
+        [Weapons.DAGGER, Weapons.SABER],
+        Peoples.ELFE,
         10,
         2,
         2,
         150,
     )
 
-    personnage2: Personnage = Personnage(
+    personnage2: Character = Character(
         "Jean-Eudes",
-        [Arme.BOUCLIER],
-        Race.TROLL,
+        [Weapons.SHIELD],
+        Peoples.TROLL,
         3,
         3,
         0,
         145,
     )
 
-    personnage3: Personnage = Personnage(
+    personnage3: Character = Character(
         "Aldric",
-        [Arme.HACHE, Arme.LANCE],
-        Race.HOMME,
+        [Weapons.AXE, Weapons.SPEAR],
+        Peoples.HOMME,
         9,
         3,
         3,
         148,
     )
 
-    personnage4: Personnage = Personnage(
+    personnage4: Character = Character(
         "Lyra",
-        [Arme.EPEE],
-        Race.ELFE,
+        [Weapons.SWORD],
+        Peoples.ELFE,
         11,
         1,
         3,
         152,
     )
 
-    personnage5: Personnage = Personnage(
+    personnage5: Character = Character(
         "Grim",
-        [Arme.MARTEAU, Arme.BOUCLIER],
-        Race.NAIN,
+        [Weapons.HAMMER, Weapons.SHIELD],
+        Peoples.NAIN,
         4,
         4,
         1,
         140,
     )
 
-    personnage6: Personnage = Personnage(
+    personnage6: Character = Character(
         "Gregor",
-        [Arme.MASSE],
-        Race.TROLL,
+        [Weapons.MACE],
+        Peoples.TROLL,
         3,
         4,
         0,
